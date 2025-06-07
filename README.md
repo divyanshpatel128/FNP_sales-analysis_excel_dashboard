@@ -1,7 +1,6 @@
 # FNP_sales-analysis_excel_dashboard
+![image](https://github.com/user-attachments/assets/1721b30f-bc17-4cc3-86aa-07cd9bd78548)
 
-
-![Dashboard Screenshot](https://github.com/user-attachments/assets/fnp_dashboard_image.png)
 
 As a data enthusiast, I created this Excel-based dashboard to help businesses in the gifting industry—like Ferns N Petals (FNP)—uncover actionable insights across sales, delivery, and product trends.
 
@@ -30,6 +29,8 @@ This project highlights the advanced capabilities of Excel:
 ---
 
 ## 📊 Skill: Power Query (ETL)
+![image](https://github.com/user-attachments/assets/6b4811a5-19bf-4b87-b217-f8230074907c)
+
 
 ### 📥 Extract
 
@@ -76,6 +77,8 @@ This project highlights the advanced capabilities of Excel:
 ---
 
 ## 🧮 Skill: Power Pivot
+![image](https://github.com/user-attachments/assets/df724d8c-4491-4042-b48b-1fc1c18ec15c)
+
 
 - Created a star schema model connecting `Orders`, `Products`, `Categories`, and `Occasions`.
 - Linked all tables through unique IDs to maintain clean relationships and allow for one-click filtering.
@@ -88,6 +91,7 @@ This project highlights the advanced capabilities of Excel:
 ```dax
 Total Revenue := SUM(data_table[order_amount])
 Average Delivery Days := AVERAGE(data_table[delivered_day])
+Average order price :=DIVIDE([Total Revenue],[Total Orders])
 ```
 
 - Interactive charts show:
@@ -99,8 +103,7 @@ Average Delivery Days := AVERAGE(data_table[delivered_day])
 
 ## 📌 File Summary
 
-- `fnp_sales_analysis.xlsx` — Excel dashboard file  
-- `sample_data.csv` — Cleaned dataset  
+- https://github.com/divyanshpatel128/FNP_sales-analysis_excel_dashboard/tree/main/data_set — Excel dashboard file  
 - Screenshots and visuals for presentation
 
 ---
