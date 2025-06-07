@@ -119,3 +119,6 @@ Perfect for portfolio, interviews, and real-world business scenarios.
 ## 👤 Created by: Divyansh Patel  
 _Aspiring Data Analyst | Excel Automation Enthusiast_
 
+## 📢 Let's Connect
+
+- https://www.linkedin.com/in/divyansh-patel-dataanalyst/
